@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Subir imagenes</title>
+</head>
+<body>
+	
+     <center>
+          <div class="container-box">
+               <br><br><br>
+               <form class="formulario" action="insertar_imagenes.php" method="post" enctype="multipart/form-data">
+                    <h1>Subir imagen</h1>
+                    <br><hr><br><br>
+                    <label for=""> Nombre de la imagen </label>
+                    <input class="nombre" type="text" name="nombre" required="">
+                    <br><br>
+                    <label for=""> Archivo</label>
+                    <input type="file" name="archivo">
+                    <br><br>
+                    
+                    <input type="submit" value="Subir" name="subir">
+                    <br><br>
+                    <button> <a href="listar_imagenes.php"> DESCARGAS </a> </button>
+               </form>
+          </div>
+     </center>
+     
+     <center>
+          <div class="container-box1">
+               <br><br><br>
+               <form class="formulario" action="cargar_archivos_offi.php" method="post" enctype="multipart/form-data">
+                    <h1>Subir documento</h1>
+                    <br><hr><br><br>
+                    <label for=""> Nombre del documento </label>
+                    <input class="nombre" type="text" name="nombre" required="">
+                    <br><br>
+                    <label for=""> Archivo</label>
+                    <input type="file" name="archivo">
+                    <br><br>
+                    
+                    <input type="submit" value="Subir" name="subir">
+                    <br><br>
+                    <button> <a href="listar_archivos_ofice.php"> DESCARGAS </a> </button>
+               </form>
+          </div>
+     </center>
+
+     <center>
+          <div class="container-box2">
+               <br><br><br>
+               <form class="formulario" action="cargar_videos.php" method="post" enctype="multipart/form-data">
+                    <h1>Subir video</h1>
+                    <br><hr><br><br>
+                    <label for=""> Nombre del video </label>
+                    <input class="nombre" type="text" name="nombre" required="">
+                    <br><br>
+                    <label for=""> Archivo</label>
+                    <input type="file" name="archivo">
+                    <br><br>
+                    
+                    <input type="submit" value="Subir" name="subir">
+                    <br><br>
+                    <button> <a href="listar_videos.php"> DESCARGAS </a> </button>
+               </form>
+          </div>
+     </center> 
+
+     <center>
+          <div class="container-box3">
+               <br><br><br>
+               <form class="formulario" action="cargar_aplicativos.php" method="post" enctype="multipart/form-data">
+                    <h1>Subir aplicativo</h1>
+                    <br><hr><br><br>
+                    <label for=""> Nombre del aplicativo </label>
+                    <input class="nombre" type="text" name="nombre" required="">
+                    <br><br>
+                    <label for=""> Archivo</label>
+                    <input type="file" name="archivo">
+                    <br><br>
+                    
+                    <input type="submit" value="Subir" name="subir">
+                    <br><br>
+                    <button> <a href="lista_aplicativos.php"> DESCARGAS </a> </button>
+               </form>
+          </div>
+     </center>
+
+     <center>
+          <div class="container-box4">
+               <br><br><br>
+               <form class="formulario" action="cargar_videos_imagenes.php" method="post" enctype="multipart/form-data">
+                    <h1>Subir videos y imagenes</h1>
+                    <br><hr><br><br>
+                    <label for=""> Nombre del videos y imagenes </label>
+                    <input class="nombre" type="text" name="nombre" required="">
+                    <br><br>
+                    <label for=""> Archivo</label>
+                    <input type="file" name="archivo">
+                    <br><br>
+                    
+                    <input type="submit" value="Subir" name="subir">
+                    <br><br>
+                    <button> <a href="lista_videos_imagenes.php"> DESCARGAS </a> </button>
+               </form>
+          </div>
+     </center>
+</body>
+</html>
